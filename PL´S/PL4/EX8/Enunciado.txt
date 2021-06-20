@@ -1,0 +1,5 @@
+8. Consider the two following processes:
+P1: while true do: print “S”
+P2: while true do: print “C”
+Add semaphores such that at any moment the number of S or C differs by at most one. The solution should allow
+strings such as: “SCCSSCCSCS”

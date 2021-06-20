@@ -1,0 +1,4 @@
+1. Implement a program that creates 8 new processes.
+• Each process reads 200 Numbers from a text file (“Numbers.txt”) and write those numbers to the file “Output.txt”;
+• At any time only one child should be able to read/write into the files (one process in each of the files);
+• At the end, the father process should print the content of the file “Output.txt”.

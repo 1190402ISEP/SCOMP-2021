@@ -1,0 +1,4 @@
+5. Implement a program that creates a new process. Use semaphores to synchronize their actions.
+• The child process writes on screen the message “I’m the child";
+• The father process writes on scree the message "I’m the father";
+• The child process should be (always) the first to write the message on screen

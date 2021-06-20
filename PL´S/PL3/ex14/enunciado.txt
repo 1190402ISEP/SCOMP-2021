@@ -1,0 +1,4 @@
+/* Implement a program that creates a new process. One will be the producer and the other the consumer. Among
+them should be created a circular buffer to store 10 integers and the necessary synchronization variables in a shared
+memory area. The producer puts increasing values in the buffer that should be printed by the consumer. Consider
+that 30 values are exchanged between them. */

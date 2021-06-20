@@ -1,0 +1,2 @@
+Using the program written for question 9, determine which is the number of processes which gives the best
+performance in your systems. Discuss the results taking into account the architecture of your computer.

@@ -1,0 +1,7 @@
+7. Implement a solution that allows you to share an array of 10 integers between two processes not related
+hierarchically, a writer and a reader.
+
+•The writer must create a shared memory area, generate 10 random numbers between 1 and 20 and write
+them in the shared memory.
+• The reader should read the 10 values, calculate and print the average.
+Note: the writer must be executed before the reader.

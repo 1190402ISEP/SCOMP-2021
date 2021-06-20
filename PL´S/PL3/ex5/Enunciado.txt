@@ -1,0 +1,6 @@
+5. Implement a program that creates a shared memory area to store two integers and initializes those integers with
+the values 8000 and 200 and creates a new process. Parent and child must perform the following operations
+1.000.000 times:
+• The father will increase the first value and decrease the second value.
+• The child will decrease the first value and increase the second value.
+Only write the value on the screen at the end. Review the results. Will these results always be correct?

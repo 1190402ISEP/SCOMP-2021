@@ -1,0 +1,12 @@
+Vamos ter que ter 2 semáforos um que controle o processo 1 que imprime S e um que controle o processo 2 que imprime C.
+
+
+    PROCESSO 1:
+        sem_wait(semaforo dos S)
+        imprime S
+        sem_post(semaforo dos C)
+
+    PROCESSO 2:
+        sem_wait(semaforo dos C)
+        imprime C
+        sem_post(semaforo dos S)

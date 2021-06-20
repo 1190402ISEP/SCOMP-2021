@@ -1,0 +1,2 @@
+Implement a program similar to 9, but now the child processes send the local maximum using a pipe, shared by all
+processes.

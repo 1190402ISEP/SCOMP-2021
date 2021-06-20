@@ -1,0 +1,4 @@
+17. Consider a movie theater with a maximum capacity of 300 spectators. There are three types of spectators: VIP,
+Special and Normal. While there are free seats, clients enter the movie theater according to their arrival order. 
+Whenever the movie theater is full, the entrance of the spectators is conditioned to the exit of other spectators. In 
+this case, priority should be given to waiting VIP, then Special, and only then Normal spectators (by that order)

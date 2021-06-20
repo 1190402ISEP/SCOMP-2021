@@ -1,0 +1,11 @@
+Implement a program to determine the biggest element of an array in a parallel/concurrent environment. The
+parent process should:
+• Create an array of 1000 integers, initializing it with random values between 0 and 1000;
+• Create a shared memory area to store an array of 10 integers, each containing the local maximum of 100 values;
+• Create 10 new processes;
+• Wait until the 10 child processes finish the search for the local maximum;
+• Determine the global maximum;
+• Eliminate the shared memory area.
+Each child process should:
+• Calculate the largest element in the 100 positions;
+• Write the value found in the position corresponding to the order number (0-9) in the array of local maximum.

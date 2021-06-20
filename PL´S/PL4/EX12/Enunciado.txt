@@ -1,0 +1,8 @@
+12. Implement a program that simulates the selling of tickets. You should simulate the customers, using semaphores
+to synchronize the access to shared memory area for data exchange. Consider also the following:
+- Only the seller has access to the tickets, only he knows the number of the next ticket.
+- The clients should be served by their arrival order, blocking until getting their ticket.
+- The client should print the number of the ticket.
+- The behavior of each client and seller should be developed by separate programs.
+- Assume that each client needs a random number of seconds (1-10) to be served.
+- You should try to execute several clients concurrently

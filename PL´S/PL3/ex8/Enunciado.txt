@@ -1,0 +1,6 @@
+8. Implement a program that creates a shared memory area to store an integer, initializes this value to 100, and
+creates a new process. Parent and child must perform the following operations 1.000.000 times:
+• Increase the value;
+• Decrease the value;
+• Only write the value on the screen at the end.
+Review the results. Will these results always be correct?

@@ -1,0 +1,6 @@
+2. Implement a solution that sends the product code, description, and price between two processes not related
+hierarchically, a writer and a reader.
+• The writer must create a shared memory area, read the data from the keyboard and write them in the
+shared memory.
+• The reader should read the data from the shared memory and print them on the screen.
+Note: the writer must be executed before the reader.

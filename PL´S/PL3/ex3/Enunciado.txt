@@ -1,0 +1,5 @@
+3. Implement a solution that tests the speed of two transfer methods between two processes – pipes and shared
+memory.
+• Start by filling an array of 100 000 structures with an integer and the “ISEP – SCOMP 2020” string.
+• Start a timer and copy that array between the two processes using shared memory. Start a timer and use
+a pipe to transfer the same amount of data between processes.

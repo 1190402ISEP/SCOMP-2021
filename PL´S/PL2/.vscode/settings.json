@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "stdio.h": "c",
+        "string.h": "c",
+        "time.h": "c",
+        "unistd.h": "c",
+        "types.h": "c"
+    }
+}

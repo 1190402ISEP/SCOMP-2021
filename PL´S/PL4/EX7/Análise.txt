@@ -1,0 +1,12 @@
+                                                 ANÁLISE:
+ORDEM DE EXECUÇÃO NECESSÁRIA:
+
+P1-A  |-> printf(“Sistemas ”);
+P2-A  |-> printf(“de ”);
+P3-A  |-> printf(“Computadores -”);
+P1-B  |-> printf(“a ”);
+P2-B  |-> printf(“melhor “);
+P3-B  |-> printf(“disciplina! ”);
+
+Precisamos de 3 semáforos que controlem o fluxo do printf() passando pela ordem já referida e no esquema em anexo.
+Cada um dos semáforos irá controlar o fluxo de execução do programa.

@@ -1,0 +1,7 @@
+4. Implement a solution that allows you to share an array of 100 characters between two processes not related
+hierarchically, a writer and a reader.
+• The writer must create a shared memory area, generate 100 random chars (between ‘A’ and ‘Z’) and write
+them in the shared memory.
+• The reader should read the 100 values, calculate the sum of ASCII code and print all the chars and the
+average of the 100 ASCII codes.
+Note: the writer must be executed before the reader

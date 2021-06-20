@@ -1,0 +1,3 @@
+4. Change the last question by adding the following features:
+- Add an option to “remove” (free) one string from the shared memory;
+- Your program should wait at most 12 seconds to access the shared memory, warning the user if that is not possible.

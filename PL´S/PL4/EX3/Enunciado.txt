@@ -1,0 +1,7 @@
+3. Implement a program that should behave as follows:
+• Guarantee mutual exclusion to the shared memory;
+• Add, to the shared memory, a text line with the following information: "I’m the Father - with PID X", where X
+should be replaced by the PID of the process;
+• Wait N seconds (from 1 to 5 seconds);
+Test the solution by executing several concurrent instances of your code.
+Note: Consider that you have a shared memory area with 50 strings, each string having 80 characters.

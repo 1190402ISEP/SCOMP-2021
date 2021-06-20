@@ -1,0 +1,4 @@
+Implement a solution that tests the speed of two transfer methods between two processes – pipes and shared
+memory. Start by filling a 1.000.000 array with numbers. Start a timer and copy that array between the two
+processes one element at a time using shared memory. Start a timer and use a pipe to transfer the same amount
+of data between processes. Test for different sizes of data.

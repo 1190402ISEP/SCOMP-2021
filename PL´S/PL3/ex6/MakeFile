@@ -1,0 +1,19 @@
+# A simple Makefile na linkagem dos ficheiros .o é que adiciona as bibliotecas
+main: main.o
+	gcc -Wall -g main.o -o main -lrt
+
+pipes: pipes.o
+	gcc -Wall -g pipes.o -o pipes 
+
+main.o: main.c
+	gcc -Wall -g -c main.c
+
+pipes.o: pipes.c
+	gcc -Wall -g -c pipes.c 
+
+run: main pipes
+	./main
+	./pipes
+
+clean:
+	rm *.o *.bin

@@ -1,0 +1,2 @@
+2. Change the last program in a way that the child process reads from the file “Numbers.txt” by order of its process
+number (1 to 8). Use 8 semaphores to synchronize between the child processes
